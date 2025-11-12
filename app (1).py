@@ -178,6 +178,3 @@ with open("app.py", "w", encoding="utf-8") as f:
     f.write(app_code)
 
 print("✅ تم إنشاء app.py بنجاح. راجع /content/app.py")
-
-
-your url is: https://xxxxx.loca.lt
