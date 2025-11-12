@@ -178,3 +178,9 @@ with open("app.py", "w", encoding="utf-8") as f:
     f.write(app_code)
 
 print("✅ تم إنشاء app.py بنجاح. راجع /content/app.py")
+
+!wget -q -O - ipv4.icanhazip.com
+!streamlit run app.py & npx --yes localtunnel --port 8501
+
+
+your url is: https://xxxxx.loca.lt
